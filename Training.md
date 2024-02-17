@@ -11,7 +11,7 @@
 3. 通关了 GitHub WorkFlow 训练营
 4. 已经成为 GitHub/wyast 公司的成员
 
-    具体的信息都在语雀上。如果你没有打牢基础而来我这儿瞎搞，我会深入而友好地教育你。
+    具体的信息都在语雀上。如果你没有打牢基础而来我这儿瞎搞，我会深入而友好地一对一教育你。
 
 ## 初始化
 
@@ -67,15 +67,18 @@
     git push origin main:YourName
 
 <img src="./push.jpg">
-看到类似于这样的信息，说明你成功了。  
-而如果显示“Permission Denied”，说明是初始化有问题，检查你配置的user.email是否是你在wyast中的那个GitHub账号的注册用邮箱。
+看到类似于这样的信息，说明你成功了。这个`YourName`分支是你的专属工作区。正式工作时可以取与你正在做的功能有关的名字，比如“latex”。
+
+而如果显示“Permission Denied”，说明是初始化有问题，检查你配置的 user.email 是否是你在 wyast 中的那个 GitHub 账号的注册用邮箱。
 
 ## 提出 Pull Request
 
 <img src="./pr.jpg">
-打开 GitHub 网页，点击 `Compare & pull request` 。  
-注意：在实际工作中，你不应该对每一个commit都提交pull request，很低效。需要在累积了足够多的改动（比如新建并完成了一个网页）后几次commit统一pull request。  
-按照你在 WorkFlow 教程中学习的方法提出申请。勾选所有的 Owner，确认。最后在大群里说一声，老人们来看这个 request。
+打开 GitHub 网页，点击 `Compare & pull request` 。
+
+注意：在实际工作中，你不应该对每一个 commit 都提交 pull request，很低效。需要在累积了足够多的改动（比如新建并完成了一个网页）后几次 commit 统一 pull request。
+
+按照你在 WorkFlow 教程中学习的方法提出申请。勾选所有的 Owner，确认。最后请在大群里说一声，老人们来看这个 request。
 
 ## 恭喜
 
