@@ -2,7 +2,7 @@
 
 你好，我是织田信长。现在我来教你如何成为战国乱世中的一方枭雄。为了成为枭雄你肯定需要一个团队，正如我有“织田五大将”；而有了团队就有必要使用 Git。所以，请务必乖乖地跟我学好 Git。  
 为了让你信任我，在此放一张帅照。  
-<img src="./Nobunaga.jpg">
+<img src="./pic/Nobunaga.jpg">
 
 **在使用训练营之前，确保你已经完成了以下事情：**
 
@@ -15,7 +15,7 @@
 
 ## 初始化
 
-#### 目录
+#### 新建目录
 
 打开你的 win Git 或者 Linux，在你喜欢的位置创建你的科协工作目录。
 
@@ -41,9 +41,17 @@
     code .
 
 你现在能看到类似这样的右边栏：  
-<img src="./code.jpg">
+<img src="./pic/code.jpg">
 
 到此处，你已经顺利完成初始化了。
+
+## 获取进度
+
+从远程 GitHub 库中拉取同事们的进度，覆盖本地文件。
+
+    git pull origin main
+
+这在工作中很重要，可以避免很多的合并冲突。注意，在实际工作中，不一定拉取 main 分支，将 main 替换成你想要的远程分支即可。
 
 ## 写文件
 
@@ -66,14 +74,14 @@
     git commit -m "YourName's first battle !!"
     git push origin main:YourName
 
-<img src="./push.jpg">
+<img src="./pic/push.jpg">
 看到类似于这样的信息，说明你成功了。这个`YourName`分支是你的专属工作区。正式工作时可以取与你正在做的功能有关的名字，比如“latex”。
 
 而如果显示“Permission Denied”，说明是初始化有问题，检查你配置的 user.email 是否是你在 wyast 中的那个 GitHub 账号的注册用邮箱。
 
 ## 提出 Pull Request
 
-<img src="./pr.jpg">
+<img src="./pic/pr.jpg">
 打开 GitHub 网页，点击 `Compare & pull request` 。
 
 注意：在实际工作中，你不应该对每一个 commit 都提交 pull request，很低效。需要在累积了足够多的改动（比如新建并完成了一个网页）后几次 commit 统一 pull request。
