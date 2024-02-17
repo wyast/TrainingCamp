@@ -1,2 +1,5 @@
 # TrainingCamp
-The official WYAST Training Camp for new collueges, aiming at promoting your GIT skills
+
+The official WYAST Training Camp for new collueges, aimed at promoting your GIT skills.
+
+## Have a nice year, youngsters ! --Nobunaga
