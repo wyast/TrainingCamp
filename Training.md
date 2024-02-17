@@ -60,8 +60,23 @@
 
 ## 创建分支并完成 Push
 
-现在你对团队的代码有了自己的贡献，需要把新的代码包推回远端仓库。但是工作时，远端仓库的 main 分支被我织田信长上了锁，避免大家误操作而给团队带来不必要的麻烦。所以，你现在需要 push 到一个分支上，再要求老人们合并。
+现在你对团队的代码有了自己的贡献，需要把新的代码包推回远端仓库。但是工作时，远端仓库的 main 分支被我织田信长上了锁，避免大家可能的误操作而给团队带来不必要的麻烦。所以，你现在需要 push 到一个分支上，再要求老人们合并。
 
     git add .
     git commit -m "YourName's first battle !!"
     git push origin main:YourName
+
+<img src="./push.jpg">
+看到类似于这样的信息，说明你成功了。  
+而如果显示“Permission Denied”，说明是初始化有问题，检查你配置的user.email是否是你在wyast中的那个GitHub账号的注册用邮箱。
+
+## 提出 Pull Request
+
+<img src="./pr.jpg">
+打开 GitHub 网页，点击 `Compare & pull request` 。  
+注意：在实际工作中，你不应该对每一个commit都提交pull request，很低效。需要在累积了足够多的改动（比如新建并完成了一个网页）后几次commit统一pull request。  
+按照你在 WorkFlow 教程中学习的方法提出申请。勾选所有的 Owner，确认。最后在大群里说一声，老人们来看这个 request。
+
+## 恭喜
+
+你完成了教程，从现在起你应该熟悉了我们部门的标准工作流。掌握了 Git，你可以开始团队合作了。祝你在成为一代枭雄的路上诸事如意。信长告退。
