@@ -29,6 +29,11 @@
     git config --global user.name "你GitHub的用户名"
     git config --global user.email "你GitHub的注册用邮箱"
 
+#### 配置密钥
+
+这是一门学问，在此不便细说。好在 CSDN 上有一个很好的攻略，聪明的你一定能学会。  
+<a href="https://blog.csdn.net/Yaoyao2024/article/details/132123525">SSH Key 教程</a>
+
 #### 初始化仓库
 
 执行以下命令以获得本训练营的仓库：
