@@ -1,5 +1,6 @@
-# include <stdio>
-int main() {
-  printf("SuperBoy zzy\n");
+#include <cstdio>
+int main()
+{
+  printf("superboy zzy!\n");
   return 0;
 }
